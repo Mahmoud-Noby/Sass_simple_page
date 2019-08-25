@@ -1,0 +1,32 @@
+.parent{
+    background-color: Red;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.div1{
+    background-color: black;
+    margin: 5px;
+    color: white;
+}
+.div2{
+    background-color: black;
+    margin: 5px;
+    width: 150px;
+    color: white;
+}
+.div4{
+    background-color: black;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.div5{
+    background-color: black;
+    margin: 5px;
+    width: 200px;
+    color: white;
+}
