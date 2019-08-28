@@ -1,0 +1,14 @@
+/*
+** Prefixes Mixins
+**/
+body p {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  background-color: black;
+  -webkit-box-shadow: 10px 10px 10px #ccc;
+  -moz-box-shadow: 10px 10px 10px #ccc;
+  -o-box-shadow: 10px 10px 10px #ccc;
+  -ms-box-shadow: 10px 10px 10px #ccc;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,21 @@
+
+
+
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color:rgba($redcolor, 0.1) 
+} 
+/*
+** Prefixes Mixins
+**/
+@mixin prefixes($property, $value, $prefixes) {
+    @each $prefixe in $prefixes{
+        #{ '-'+ $prefixe+ '-'+ $property}: $value;
+    }
+    $property: $value;
+}
