@@ -76,25 +76,32 @@
 }
 //End Players
 //Start lorem Section
-.lorem-box{
-    padding: 20px;
-    float:$float-left;
-    width: (100% / 3);
-    img{
-        max-width: 100%;
-    }
-    h4{
-        margin-bottom: 0px;
-        color: #666;
-    }
-    p{
-        margin-top: 10px;
-        color: #777;
+    
+.lorem{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    overflow-x: hidden; 
+    .lorem-box{
+        padding: 20px;
+        float:$float-left;
+        width: (100% / 3);
+        img{
+            max-width: 100%;
+        }
+        h4{
+            margin-bottom: 0px;
+            color: #666;
+        }
+        p{
+            margin-top: 10px;
+            color: #777;
 
-    }
-    a{
-        text-decoration: none;
-        color: $redcolor;
+        }
+        a{
+            text-decoration: none;
+            color: $redcolor;
+        }
     }
 }
+    
 //End Lorem Section

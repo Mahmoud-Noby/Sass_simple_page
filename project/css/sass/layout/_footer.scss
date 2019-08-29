@@ -1,0 +1,38 @@
+.footers{
+    background-color: $gryClor;
+    padding-top: 0px;
+    overflow: hidden;
+    .gallery{
+        float: $float-left;
+        padding: 30px 0;
+        width: (100% / 2);
+        h3{
+            color: $redcolor;
+        }
+        .img-box{
+            overflow: hidden;
+            margin: 25px 0px;
+            img{
+                float: $float-left;
+                width: 150px;
+                height: 150px;
+            }
+            .text{
+                float: $float-left;
+                width: calc(100% - 220px);
+                margin-left: 15px;
+                margin-right:15px; 
+                h4{
+                    color: $redcolor;
+                    margin: 20px 0 0px;
+                }
+                p{
+                    margin-top: 8px;
+                    line-height: 1.5;
+                    color: #888;
+                }
+            }   
+        }  
+    }
+    
+}

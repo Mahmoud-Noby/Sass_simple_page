@@ -100,11 +100,11 @@ ul, ol {
   display: block;
   text-decoration: none;
   padding: 15px 10px;
-  color: #ddd;
+  color: #fff;
 }
 
 .header .navbar li a:hover {
-  color: #FFF;
+  color: #ddd;
 }
 
 .slider {
@@ -187,28 +187,79 @@ ul, ol {
   color: #1fab89;
 }
 
-.lorem-box {
+.lorem {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.lorem .lorem-box {
   padding: 20px;
   float: left;
   width: 33.33333%;
 }
 
-.lorem-box img {
+.lorem .lorem-box img {
   max-width: 100%;
 }
 
-.lorem-box h4 {
+.lorem .lorem-box h4 {
   margin-bottom: 0px;
   color: #666;
 }
 
-.lorem-box p {
+.lorem .lorem-box p {
   margin-top: 10px;
   color: #777;
 }
 
-.lorem-box a {
+.lorem .lorem-box a {
   text-decoration: none;
   color: #1fab89;
+}
+
+.footers {
+  background-color: #cccccc;
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+.footers .gallery {
+  float: left;
+  padding: 30px 0;
+  width: 50%;
+}
+
+.footers .gallery h3 {
+  color: #1fab89;
+}
+
+.footers .gallery .img-box {
+  overflow: hidden;
+  margin: 25px 0px;
+}
+
+.footers .gallery .img-box img {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.footers .gallery .img-box .text {
+  float: left;
+  width: calc(100% - 220px);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footers .gallery .img-box .text h4 {
+  color: #1fab89;
+  margin: 20px 0 0px;
+}
+
+.footers .gallery .img-box .text p {
+  margin-top: 8px;
+  line-height: 1.5;
+  color: #888;
 }
 /*# sourceMappingURL=home.css.map */
