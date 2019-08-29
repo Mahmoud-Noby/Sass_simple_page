@@ -1,0 +1,20 @@
+*{
+    @include prefixes(box-sizing, border-box, webkit moz);
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right:15px; 
+    position: relative;
+}
+.container-fluid{
+    width: 1300px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right:15px; 
+}
+
+.clear-fix{
+    clear: both;
+}

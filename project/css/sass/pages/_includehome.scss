@@ -1,0 +1,100 @@
+// Slider Start
+
+.slider{
+    padding: 10px;
+
+    blockquote{
+        font-size: 20px;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    img{
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    .bullets{
+        text-align: center;
+        li{
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: #ccc;
+            &.active, &:hover {
+                border: 3px solid #333;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+//  End Slider
+
+//Start Services
+.service-box{
+    padding: 20px;
+    float:$float-left;
+    width: (100% / 3);
+    h4{
+        margin-bottom: 0px;
+        color: #666;
+    }
+    p{
+        margin-top: 10px;
+        color: #777;
+
+    }
+    a{
+        text-decoration: none;
+        color: $redcolor;
+    }
+}
+//End Services
+//Start Player
+.player-box{
+    padding: 20px;
+    float:$float-left;
+    width: (100% / 4);
+    img{
+        max-width: 100%;
+    }
+    h4{
+        margin-bottom: 0px;
+        color: #666;
+    }
+    p{
+        margin-top: 10px;
+        color: #777;
+
+    }
+    a{
+        text-decoration: none;
+        color: $redcolor;
+    }
+}
+//End Players
+//Start lorem Section
+.lorem-box{
+    padding: 20px;
+    float:$float-left;
+    width: (100% / 3);
+    img{
+        max-width: 100%;
+    }
+    h4{
+        margin-bottom: 0px;
+        color: #666;
+    }
+    p{
+        margin-top: 10px;
+        color: #777;
+
+    }
+    a{
+        text-decoration: none;
+        color: $redcolor;
+    }
+}
+//End Lorem Section
