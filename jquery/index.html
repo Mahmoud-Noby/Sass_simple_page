@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+
+    }
+    .mainHeading{
+        text-align: center;
+        line-height: 1.36rem;
+        padding: 30px;
+        background-color: rgb(3, 3, 3);
+        color: aliceblue;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="mainHeading">Jquery tutorial</h1>
+
+        <div class="mouseEvents">
+                <input type="text" name="text" placeholder="text" id="textf">
+                <button type="submit" id="btn">Button</button>
+                <button type="submit" id="btn2">Button_2</button>
+            </div>
+        <div class="section1">
+            <h1 class="sible1">Siblings Heading-1</h1>
+            <p class="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla soluta minima fuga, 
+                sint iste voluptatem facilis nobis suscipit cupiditate voluptate officia similique .
+                .harum provident sunt saepe sit voluptas dolor aperiam.</p>
+        </div>
+        <div class="section2">
+            <h1 class="sible2">Siblings Heading-2</h1>
+            <p class="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla soluta minima fuga, 
+                sint iste voluptatem facilis nobis suscipit cupiditate voluptate officia similique .
+                .harum provident sunt saepe sit voluptas dolor aperiam.</p>
+        </div>
+        <h1 id="coords"></h1>
+        <h1 id="coords2"></h1>
+        <div class="uList">
+            <ul class="ordered-list">
+                <li class="listItem">test-jquery | Selectors</li>
+                <li class="listItem">test-jquery | Selectors</li>
+                <li class="listItem">test-jquery | Selectors</li>
+                <li class="listItem">test-jquery | Selectors</li>
+                <li class="listItem">test-jquery | Selectors</li>
+            </ul>
+        </div>
+  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+
+$(document).on('mousemove',function(e){
+    $('#coords2').html('Y :'+e.clientY + '  ' + 'X: ' + e.clientX);
+})
+/***** 
+    JQuery Selectors
+*****/
+// $('h1.sible1').css('color', 'red' , 'font-size', ' 15px');
+// // $('h1.sible1').css('font-size', ' 15px');
+// $('ul.ordered-list li:even').css('color', 'red');
+// $('ul.ordered-list li:odd').css('list-style', 'none');
+// $('ul.ordered-list li').css('padding', '10px 0');
+/****
+Mouse Events
+****/
+$(document).ready(function(){
+
+    $('#btn').click(function(){
+        $('.section1').toggle();
+    });
+    $('#btn2').on('mouseleave', function(){
+        $('.section2').toggle();
+    });
+    // $(document).on('mousemove', function(e){
+    //     $('#coords').html( " Coordenaits X:  "+ e.clientX + " , " + " Coordenaits Y: "+ e.clientY  );
+    // });
+})
+
+</script>
+</body>
+</html>
